@@ -5,7 +5,7 @@ import {useState, useContext} from "react";
 
 import {UnitContext} from "../storage/Context";
 import {ArrowLeft, FileEdit, MapPinIcon, Wallet2Icon, X} from "lucide-react";
-const Reviewjob = () => {
+const ReviewJob = () => {
   const {id} = useParams();
   const navigate = useNavigate();
 
@@ -120,4 +120,4 @@ const Reviewjob = () => {
     </>
   );
 };
-export default Reviewjob;
+export default ReviewJob;

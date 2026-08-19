@@ -12,7 +12,7 @@ import NotFound from "./component/NotFound";
 import EditJob from "./pages/EditJob";
 import Apply from "./pages/Apply";
 import JobDone from "./pages/JobDone";
-import Reviewjob from "./pages/Reviewjob";
+import ReviewJob from "./pages/ReviewJob";
 
 
 
@@ -40,7 +40,7 @@ function App() {
           <Route path="/edit/:id" element={<EditJob />} />
           <Route path="/apply/:id" element={<Apply />} />
           <Route path="/done" element={<JobDone />} />
-          <Route path="/review/:id" element={<Reviewjob />} />
+          <Route path="/review/:id" element={<ReviewJob />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
